@@ -1,0 +1,153 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 35px 9%;
+    justify-content: space-between;
+}
+body{
+    background: linear-gradient(245.59deg,#4d9554 0%,#38703d 28.53%, #133917 75.52%);
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffff;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffff;
+    margin-left: 60px;
+    border-bottom: 2px solid transparent ;
+    transition: all .55s ease;
+}
+.navbar a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: #fff;
+    font-size: 35px;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg,#4d9554 0%,#38703d 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section{
+    padding: 0 19%;
+}
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.hero-text H1{
+    font-family: "Permanent Marker", cursive;
+    font-size: 80px;
+    line-height:1;
+    color: #fff;
+    margin: 0 0 45px;
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+    
+}
+.hero-img img{
+    width: 600px;
+    height: auto;
+}
+.hero-text a{
+    display: inline-block;
+    color: #fff;
+    background: #4d9554;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+.hero-text a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.hero-text a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);    
+}
+.icon i{
+    display: block;
+    margin: 25px 0;
+    font-size: 24px;
+    color: #fff;
+    transition: all .55s ease;
+}
+.icon i:hover{
+    color: #4d9554;
+    transform: translateY(-5px);
+}
+.scroll-down{
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+.scroll-down i{
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    background: #4d9554;
+    border-radius: 30px;
+    transition: all .55s ease;
+}
+.scroll-down i:hover{
+    transform: translateY(-5px);
+}
