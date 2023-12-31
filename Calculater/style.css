@@ -5,10 +5,77 @@
     box-sizing: border-box;
 }
 .cantainer{
-    background: #9e9d9d;
+    background: linear-gradient(#f2daa7,rgb(255, 111, 0), rgba(242, 208, 158, 0.975));
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.calculator{
+
+    background: rgb(10, 7, 7);
+    padding: 100px 20px 40px 20px;
+    border-radius: 40px;
+}
+.calculator form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Screen{
+    margin-bottom: 10px;
+    color: #fff;
+    background: transparent;
+    border: 0;
+    outline: none;
+    
+    width: 170px;
+    height: 60px;
+    font-size: 50px;
+    text-align: right;
+
+}
+.btn{
+    background: rgb(62, 62, 62);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px 3px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+.big-btn{
+    height: 40px;
+    padding: 0 0 0 10px;
+    width: 90px;
+    margin-right: 3pt;
+    border-radius: 20px;
+    border: 0;
+    background:  rgb(62, 62, 62);
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    transition: 0.5s;
+}
+.big-btn:active{
+    background: rgb(121, 120, 120);
+}
+.op-btn{
+    background: orange;
+    /* transition: 0.9s; */
+}
+.op-btn:active{
+    background: rgba(255, 166, 0, 0.79);
+}
+.upper-btn{
+    background: rgba(197, 195, 195, 0.822);
+    font-size: 15px;
+    color: black;
+}
+
+.btn:active{
+    background: rgb(121, 120, 120);
 }

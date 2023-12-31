@@ -8,7 +8,45 @@
 </head>
 <body>
     <div class="cantainer">
-        div.cal
+        <div class="size">
+
+            <div class="calculator">
+                <form >
+                    <div>
+                    <input type="text" name="display" class="Screen">
+                </div>
+                <div>
+                    <input onclick="display.value = '' " type="button" class="btn upper-btn" value="AC">
+                    <input onclick="display.value = display.value.toString().slice(0,-1)" type="button" class = "btn upper-btn" value="DE">
+                    <input onclick="display.value += '%'" type="button" class = "btn upper-btn" value="%">
+                    <input onclick="display.value += '/' " type="button" class = "btn op-btn" value="÷">
+                </div>
+                <div>
+                    <input onclick="display.value += 7" type="button" class = "btn" value="7">
+                    <input onclick="display.value += 8" type="button" class = "btn" value="8">
+                    <input onclick="display.value =9" type="button" class = "btn" value="9">
+                    <input onclick="display.value +='*' " type="button" class = "btn op-btn" value="×">
+                </div>
+                <div>
+                    <input onclick="display.value += 4" type="button" class = "btn" value="4">
+                    <input onclick="display.value +=5" type="button" class = "btn" value="5">
+                    <input onclick="display.value +=6" type="button" class = "btn" value="6">
+                    <input onclick="display.value +='-'" type="button" class = "btn op-btn" value="−">
+                </div>
+                <div>
+                    <input onclick="display.value +=1" type="button" class = "btn" value="1">
+                    <input onclick="display.value +=2" type="button" class = "btn" value="2">
+                    <input onclick="display.value +=3" type="button" class = "btn" value="3">
+                    <input onclick="display.value +='+'" type="button" class = "btn op-btn" value="+">
+                </div>
+                <div>
+                    <input onclick="display.value +=0" type="button" class="big-btn " value="0">
+                    <input onclick="display.value +='.'" type="button" class = "btn" value=".">
+                    <input onclick="display.value = eval(display.value)" type="button" class = "btn op-btn" value="=">
+                </div>
+            </form>
+        </div>
+    </div>
     </div>
 </body>
 </html>
