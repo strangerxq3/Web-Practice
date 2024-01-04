@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background:#361500;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vmin;
+    width: 100%;
+}
+nav h1{
+    font-size: 6vmin;
+}
+body{
+    background: linear-gradient(rgba(54, 30, 1, 0.479), rgba(204, 150, 68, 0.132)), url('desktop-wallpaper-cartoon-dark-cartoon.jpg');;
+    background-size: cover;
+    height: 100vh;
+}
+.can{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9vmin;
+}
+.box{
+    background: #EEEEEE;
+    border: 3px solid #361500;
+    width: 18vmin;
+    height: 18vmin;
+    font-size: 8vmin;
+    color: #603601;
+}
+
+.reset{
+    margin-top: 50px;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    color:#603601;
+}
+.msg{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #603601;
+    
+}
+.btn-r{
+    margin-top: 20px;
+    display: none;
+    justify-content: center;
+}
+.btn-r button{
+    color: #fff;
+    background: #603601;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    /* display: none; */
+}
+
+
+
